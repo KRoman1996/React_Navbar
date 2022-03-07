@@ -1,0 +1,74 @@
+
+.Navbar {
+    min-height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3%;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    font-size: 16px;
+}
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+.motion {
+    font-size: 22px;
+    display: flex;
+    margin-right: 40px;
+}
+
+.motion > img  {
+    margin-right: 12px;
+}
+
+
+.item_active   {
+    border-bottom: 3px solid rgb(142, 130, 250)
+}
+
+.motion1 {
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.motion1 > img  {
+    margin-right: 16px;
+}
+
+
+.avatar {
+    margin-left: 58px;
+    margin-right: 16px;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.notify {
+    position: relative;
+}
+
+.notify_count   {
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    font-size: 13px;
+    color: white;
+    background-image: linear-gradient(-225deg, #C468FF, #6E91F6);
+    position: absolute;
+    top: -9px;
+    right: -18px;
+}
+
+.curser-pointer {
+    cursor: pointer;
+}
